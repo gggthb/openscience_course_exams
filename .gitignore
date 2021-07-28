@@ -1,0 +1,8 @@
+## RStudio default .files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+## RStudio project file
+*.Rproj

@@ -1,0 +1,26 @@
+---
+title: "Open Science. Guiding Principles and Best Practices"
+subtitle: "Eberhard Karls Universität Tübingen - Sommersemester 2021"
+author: "[NAME, SURNAME]"
+date: "[SUBMISSION DATE]"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Q1: 
+## Q2:
+## Q3:
+## Q4:
+## Q5: 
+## Q6:
+## Q7:
+## Q8:
+## Q9: 
+## Q10:
+## Q11:
+## Q12:

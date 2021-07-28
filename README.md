@@ -3,7 +3,7 @@ Open Science. Guiding Principles and Best practices
 
 ## FINAL EXAM
 
-The final exam consists of open and closed questions and R programming exercises.
+The final exam consists of open questions and an R programming exercise.
 
 [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository to start your final exam. Thereafter, [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) it in your local computer from the command line
 

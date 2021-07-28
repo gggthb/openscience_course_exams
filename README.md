@@ -8,14 +8,14 @@ The final exam consists of open and closed questions and R programming exercises
 [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository to start your final exam. Thereafter, [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) it in your local computer from the command line
 
 ```
-git clone https://github.com/dncgst/openscience_course_exams.git
+git clone https://github.com/[YOURUSERNAME]/openscience_course_exams.git
 ```
 
 or from RStudio
 
 ```
 File -> New Project... -> Version Control -> Git
-Repository URL: https://github.com/dncgst/openscience_course_exams.git
+Repository URL: https://github.com/[YOURUSERNAME]/openscience_course_exams.git
 Project Directory Name: openscience_course_exams
 ```
 

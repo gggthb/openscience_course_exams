@@ -12,15 +12,145 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Q1: 
-## Q2:
-## Q3:
-## Q4:
-## Q5: 
-## Q6:
-## Q7:
-## Q8:
-## Q9: 
-## Q10:
-## Q11:
-## Q12:
+### Q1: According to the [Open Definition](https://opendefinition.org/), 'open' means anyone can freely access, use, modify, and share for any purpose. The Open Definition was initially derived from the Open Source Definition, which in turn was derived from the original Debian Free Software Guidelines. Richard Stallman was the first to push the ideals of software freedom. List the 4 essential freedoms, as published by the [Free Software Foundation](https://www.gnu.org/philosophy/free-sw.html).
+
+[YOUR ANSWER HERE
+
+* Freedom 0:
+* Freedom 1:
+* Freedom 2:
+* Freedom 3:
+
+]
+
+### Q2: "Open Science is the practice of science in such a way that others can collaborate and contribute, where research data, lab notes and other research processes are freely available, under terms that enable reuse, redistribution and reproduction of the research and its underlying data and methods" ([FOSTER Open Science Definition](https://www.fosteropenscience.eu/foster-taxonomy/open-science-definition)). List the 4 foundamental rules of Open Science.
+
+[YOUR ANSWER HERE
+
+*
+*
+*
+*
+
+]
+
+### Q3: The basic principles of Open Science are listed below. Provide for each one a short description.
+
+[YOUR ANSWER HERE
+
+* Open Data:
+* Open Source:
+* Open Methods:
+* Open Access:
+* Open Peer Review:
+* Open Resources:
+
+]
+
+### Q4: Open Science leads to increased transparency for greater efficiency, rigour, accountability, sustainability for future generations, and reproducibility. List and describe some of the biases that can be introduced throughout the research process.
+
+[YOUR ANSWER HERE]
+
+### Q5: "Open Science is an umbrella term that encompasses a multitude of assumptions about the future of knowledge creation and dissemination". [Fecher & Friesike 2013](http://dx.doi.org/10.2139/ssrn.2272036) proposed 5 Open Science schools of thought. With which one do you agree the most, and why?
+
+[YOUR ANSWER HERE]
+
+### Q6: "Open research data is data that can be freely accessed, reused, remixed and redistributed, for academic research and teaching purposes and beyond" ([The Open Science Training Handbook](https://book.fosteropenscience.eu/en/)). In other terms, open data should comply with the FAIR principles ([Wilkinson et al. 2016](https://doi.org/10.1038/sdata.2016.18)). List and describe the FAIR principles.
+
+[YOUR ANSWER HERE
+
+* F
+* A
+* I
+* R
+
+]
+
+### Q7: "In order to make findings/studies replicable, or at least reproducible or reusable in any other way, the best practice recommendation for research data is to be as open and FAIR as possible, while accounting for ethical, commercial and privacy constraints with sensitive data or proprietary data" ([The Open Science Training Handbook](https://book.fosteropenscience.eu/en/)). List and comment at least a technical and a legal solution to FAIRly share and reuse sensitive data and/or to protect the Intellectual Property (IP).
+
+[YOUR ANSWER HERE
+
+*
+*
+
+]
+
+### Q8: More and more research funders expect the research data produced in the projects they founded to be findable, accessible and as open as possible. In deciding where to archive and/or publish your data, you may have a number of choises. In order of preference, what is the 1st recommendation from [OpenAIRE](https://www.openaire.eu/opendatapilot-repository-guide)?
+
+[YOUR ANSWER HERE
+
+1.
+
+]
+
+### Q9: "An article about a computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result" ([Buckheit & Donoho 1995](https://doi.org/10.1007/978-1-4612-2544-7_5)). Reproducibility is at the core of the scientific method. It leads to increased rigour and quality in the research. What are the advantages of working reproducibly for an individual researcher?
+
+[YOUR ANSWER HERE]
+
+### Q10: What is a research compendium? Provide a definition and a link to an example.
+
+[YOUR ANSWER HERE]
+
+### Q11: Preprint, postprint and version of record. What are we talking about? Give a short definition of these terms.
+
+[YOUR ANSWER HERE
+
+* Preprint:
+* Postprint:
+* Version of record:
+
+]
+
+### Q12: The [Budapest Open Access Initiative](https://www.budapestopenaccessinitiative.org/) defines Open Access (OA) as: "the world-wide electronic distribution of the peer-reviewed journal literature and completely free and unrestricted access to it by all scientists, scholars, teachers, students, and other curious minds". To achieve OA to scholarly journal literature, The BOAI recommend two complementary strategies: 1) Self-Archiving; 2) Open Access Journals. Check [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/) to see what are the policies of the Journal of Archaeological Science publisher for self-archiving a postprint. Describe pathways a) and b).
+
+[YOUR ANSWER HERE
+
+a)
+b)
+
+]
+
+### Q13: Now check [Sherpa Juliet](https://v2.sherpa.ac.uk/juliet/) to see when and where the European Research Council (ERC) requires Open Access Archiving. Report the ERC policy.
+
+[YOUR ANSWER HERE]
+
+### Q14: "Public domain" is a technical term in copyright law that refers to works not under copyright — either because they were never in copyright to begin with [...], or because their copyright term has finally lapsed and they have "fallen into" the public domain. [...] Not all jurisdictions have a public domain, and it doesn't always mean exactly the same thing in the jurisdictions that do have it. Furthermore, even where it is clear what it means, it's still not a license. To be subject to a license, a work must still be in copyright ([Open Source Initiative](https://opensource.org/faq#osd)). The [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) license can be used as an "effective" public domain license that allows unrestricted use. For what the CC0 was originally created?
+
+[YOUR ANSWER HERE]
+
+### Q15: Open Peer Review has been described as "an umbrella term for a number of overlapping ways that peer review models can be adapted in line with the aims of Open Science" ([Ross-Hellauer 2017](https://doi.org/10/gc5sjh)). What are the main and the optional traits of Open Peer Review? 
+
+[YOUR ANSWER HERE
+
+Main traits:
+
+*
+*
+
+Optional traits:
+
+*
+*
+*
+*
+*
+
+]
+
+### Q16: The `Olorgesailie.maj` dataset, included in the `archdata` package, represent the number of specimens in each of 6 major artifact classes recovered from 19 localities at the Lower Paleolithic site of Olorgesailie as described in Isaac (1977). By using the `ggplot2` package, plot the total amount of large cutting tools per localities. Which locality yielded more large cutting tools?
+
+```{r}
+# install and load the `tidyverse` package
+
+# install and load the `archdata` package
+
+# load the `Olorgesailie.maj` dataset
+
+# print the structure of the dataset
+
+# print the names of the 19 localities at the Olorgesaille site from where the artifacts were recovered. (Note that the names of the localities are stored as an attribute of the dataset: "row.names")
+
+# bar plot of the total count of large cutting tools (y axis) per localities (x axis)
+```
+
+[YOUR ANSWER HERE]
